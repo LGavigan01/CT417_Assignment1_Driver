@@ -85,7 +85,6 @@ public class MainClass {
             bisCourse.addModule(infoRetrieval);
 
             //As per assignment instructions - "the program should print out a list of all the courses......."
-            //System.out.println("\n-----------------------------------------------------\nCourses:\n-----------------------------------------------------");
             System.out.println("\n=====================================================\n\t\t\t\t\tCOURSES\n=====================================================");
             for (CourseProgramme course : listOfCourseProgrammes) { //Iterates through each course object within listOfCourseProgrammes and prints using toString() within the CourseProgramme class
                 System.out.println(course);
