@@ -13,7 +13,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    implementation 'com.github.LGavigan01:CT417_Assignment1:v1.1'
+    implementation 'com.github.LGavigan01:CT417_Assignment1:v1.3'
     // https://mvnrepository.com/artifact/org.terasoluna.gfw/terasoluna-gfw-jodatime
     implementation group: 'org.terasoluna.gfw', name: 'terasoluna-gfw-jodatime', version: '5.7.1.SP1.RELEASE'
 

@@ -85,19 +85,19 @@ public class MainClass {
             bisCourse.addModule(infoRetrieval);
 
             //As per assignment instructions - "the program should print out a list of all the courses......."
-            System.out.println("\n=====================================================\n\t\t\t\t\tCOURSES\n=====================================================");
+            System.out.println("\n=============================================================\n\t\t\t\t\t\t   COURSES\n=============================================================");
             for (CourseProgramme course : listOfCourseProgrammes) { //Iterates through each course object within listOfCourseProgrammes and prints using toString() within the CourseProgramme class
                 System.out.println(course);
             }
 
             //Printing out each module object to the console
-            System.out.println("\n\n\n=====================================================\n\t\t\t\t\tMODULES\n=====================================================");
+            System.out.println("\n\n\n=============================================================\n\t\t\t\t\t\t   MODULES\n=============================================================");
             for (Module module : listOfModules) { //Iterates through each module object within listOfModules and prints using toString() within the CourseProgramme class
                 System.out.println(module);
             }
 
             //Printing out each student object to the console
-            System.out.println("\n\n\n=====================================================\n\t\t\t\t\tSTUDENTS\n=====================================================");
+            System.out.println("\n\n\n=============================================================\n\t\t\t\t\t\t   STUDENTS\n=============================================================");
             for (Student student : listOfStudents) { //Iterates through each student object with listOfStudents and prints using toString() within the Student class
                 System.out.println(student);
             }
